@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'twig',
   templateUrl: './twig.component.html',
-  styleUrls: ['./twig.component.scss']
+  styleUrls: ['./twig.component.scss'],
+  encapsulation: ViewEncapsulation.None,
 })
 export class TwigComponent implements OnInit {
   activeLeaf = null;
