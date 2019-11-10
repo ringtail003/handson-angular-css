@@ -12,3 +12,7 @@ p {
 :host(.active p) {
   background: yellow;
 }
+
+:host-context(.theme-funky) p::before {
+  content: "🌵"
+}
