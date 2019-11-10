@@ -1,5 +1,11 @@
 <div>
   <p>twig</p>
-  <leaf1></leaf1>
-  <leaf2></leaf2>
+  <leaf1
+    [class.active]="isActive(1)"
+    (click)="activate(1)"
+  ></leaf1>
+  <leaf2
+    [class.active]="isActive(2)"
+    (click)="activate(2)"
+  ></leaf2>
 </div>
